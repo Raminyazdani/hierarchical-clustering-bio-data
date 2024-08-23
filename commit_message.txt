@@ -1,7 +1,7 @@
-Ramin Yazdani | hierarchical-clustering-bio-data | main | WIP(init): Initial project setup with structure and dependencies
+Ramin Yazdani | hierarchical-clustering-bio-data | main | WIP(data): Add methylation dataset for clustering analysis
 
-Created the foundational project structure for hierarchical clustering analysis of biological data. Established Python environment with requirements.txt containing core scientific computing dependencies (numpy, pandas, scikit-learn, matplotlib, scipy, jupyter). Added .gitignore to prevent committing Python cache files and notebook checkpoints. Created initial README.md documenting project purpose, scope, and planned folder structure.
+Acquired and added the DNA methylation dataset (methylation.csv) to the repository. This file contains methylation profiles across 26 different cell types with 95,086 CpG sites. The dataset will be used for hierarchical clustering to understand relationships between cell types based on their methylation patterns.
 
-This commit represents day 1 initialization work, setting up the project foundation before any implementation. All dependencies are specified for reproducibility. The README provides clear project description and establishes the bioinformatics analysis goals.
+Created data/ directory following data science best practices. The methylation.csv file is properly formatted with semicolon separators and comma decimals, ready for pandas loading and analysis.
 
-Verified: requirements.txt contains all necessary packages for clustering and visualization work ahead.
+Verified: File loads correctly with pandas, dimensions (95086, 26) match expected values for downstream clustering analysis.
