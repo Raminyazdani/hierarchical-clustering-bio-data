@@ -1,7 +1,7 @@
-Ramin Yazdani | hierarchical-clustering-bio-data | main | WIP(data): Add methylation dataset for clustering analysis
+Ramin Yazdani | hierarchical-clustering-bio-data | main | WIP(data): Add periodic gene expression dataset
 
-Acquired and added the DNA methylation dataset (methylation.csv) to the repository. This file contains methylation profiles across 26 different cell types with 95,086 CpG sites. The dataset will be used for hierarchical clustering to understand relationships between cell types based on their methylation patterns.
+Added the second biological dataset (periodic_gene_expression.tsv) containing time-series gene expression data from cell cycle experiments. This dataset has 8,812 genes measured across 57 time points, suitable for analyzing periodic expression patterns and identifying cell cycle markers.
 
-Created data/ directory following data science best practices. The methylation.csv file is properly formatted with semicolon separators and comma decimals, ready for pandas loading and analysis.
+Now both datasets are in place: methylation profiles for cell type clustering and time-series expression for periodic pattern analysis. This sets up the project to demonstrate hierarchical clustering on two different types of biological data.
 
-Verified: File loads correctly with pandas, dimensions (95086, 26) match expected values for downstream clustering analysis.
+Verified: Gene expression file loads correctly with pandas, dimensions (8812, 57) confirmed, ready for analysis.
