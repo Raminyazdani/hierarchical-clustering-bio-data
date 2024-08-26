@@ -1,7 +1,9 @@
-Ramin Yazdani | hierarchical-clustering-bio-data | main | WIP(data): Add periodic gene expression dataset
+Ramin Yazdani | hierarchical-clustering-bio-data | main | WIP(analysis): Create initial notebook for methylation data exploration
 
-Added the second biological dataset (periodic_gene_expression.tsv) containing time-series gene expression data from cell cycle experiments. This dataset has 8,812 genes measured across 57 time points, suitable for analyzing periodic expression patterns and identifying cell cycle markers.
+Created the first Jupyter notebook (clustering_analysis.ipynb) to begin exploring the methylation dataset. Added initial cells for importing required libraries (pandas, numpy, scikit-learn), loading the methylation.csv file, and inspecting its structure, dimensions, and basic statistics.
 
-Now both datasets are in place: methylation profiles for cell type clustering and time-series expression for periodic pattern analysis. This sets up the project to demonstrate hierarchical clustering on two different types of biological data.
+This exploratory phase is essential before implementing clustering algorithms. The notebook provides a foundation for understanding the data characteristics - 95,086 CpG sites across 26 cell types. Initial inspection helps guide decisions about preprocessing, distance metrics, and linkage methods.
 
-Verified: Gene expression file loads correctly with pandas, dimensions (8812, 57) confirmed, ready for analysis.
+Created code/ directory to organize all analysis notebooks. The exploration notebook is ready for expansion with clustering implementation.
+
+Verified: Notebook loads data successfully, displays expected dimensions and data types.
