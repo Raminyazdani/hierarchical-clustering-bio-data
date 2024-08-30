@@ -1,9 +1,9 @@
-Ramin Yazdani | hierarchical-clustering-bio-data | main | WIP(fix): Fix typo in pandas import statement
+Ramin Yazdani | hierarchical-clustering-bio-data | main | WIP(expansion): Create notebook for periodic gene expression analysis
 
-Quick hotfix for import error discovered immediately after step_06. Changed 'import pandaz' to 'import pandas as pd'. This typo caused ModuleNotFoundError when attempting to execute the notebook cells after the previous commit.
+Expanded project scope to time-series analysis by creating a second notebook (periodic_expression.ipynb). Added initial cells for loading the periodic_gene_expression.tsv dataset and inspecting its structure. This notebook will analyze periodic expression patterns during the cell cycle.
 
-Error was caught during standard testing workflow: commit code → run notebook → discover error → fix immediately. This type of typo is common when coding quickly and not running cells interactively during writing. Took less than a minute to identify and fix.
+The periodic expression dataset contains 8,812 genes measured across 57 time points, representing gene activity during cell cycle progression. This demonstrates how clustering and pattern detection techniques apply to time-series biological data, complementing the static methylation profile analysis.
 
-After this fix, notebook executes successfully and generates the expected dendrogram visualization (dendogram.jpg) showing hierarchical relationships between the 26 cell types based on methylation profiles.
+Initial notebook includes data loading, dimension inspection, and basic data quality checks.
 
-Verified: Notebook runs without errors, dendrogram generated successfully, all linkage methods tested.
+Verified: Gene expression data loads correctly, dimensions (8812, 57) confirmed, ready for visualization and peak detection implementation.
