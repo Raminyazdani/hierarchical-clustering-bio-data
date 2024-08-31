@@ -1,9 +1,9 @@
-Ramin Yazdani | hierarchical-clustering-bio-data | main | WIP(expansion): Create notebook for periodic gene expression analysis
+Ramin Yazdani | hierarchical-clustering-bio-data | main | WIP(visualization): Add basic time-series visualization for gene expression
 
-Expanded project scope to time-series analysis by creating a second notebook (periodic_expression.ipynb). Added initial cells for loading the periodic_gene_expression.tsv dataset and inspecting its structure. This notebook will analyze periodic expression patterns during the cell cycle.
+Extended periodic_expression.ipynb with visualization code to plot individual gene expression profiles over time. Created line plots showing expression levels across the 57 time points for a single representative gene. This initial visualization helps understand the data structure and identify periodic patterns.
 
-The periodic expression dataset contains 8,812 genes measured across 57 time points, representing gene activity during cell cycle progression. This demonstrates how clustering and pattern detection techniques apply to time-series biological data, complementing the static methylation profile analysis.
+The plots reveal the cyclic nature of gene expression during cell cycle. Being able to visualize individual genes is the first step before implementing more complex multi-gene visualization and peak detection algorithms.
 
-Initial notebook includes data loading, dimension inspection, and basic data quality checks.
+Basic matplotlib plotting established, ready for expansion to multi-gene comparison plots in next step.
 
-Verified: Gene expression data loads correctly, dimensions (8812, 57) confirmed, ready for visualization and peak detection implementation.
+Verified: Expression plot displays clear periodic pattern for test gene, visualization code works correctly.
