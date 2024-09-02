@@ -1,9 +1,9 @@
-Ramin Yazdani | hierarchical-clustering-bio-data | main | WIP(visualization): Add basic time-series visualization for gene expression
+Ramin Yazdani | hierarchical-clustering-bio-data | main | WIP(visualization): Extend visualization to compare multiple genes simultaneously
 
-Extended periodic_expression.ipynb with visualization code to plot individual gene expression profiles over time. Created line plots showing expression levels across the 57 time points for a single representative gene. This initial visualization helps understand the data structure and identify periodic patterns.
+Enhanced visualization capabilities by adding multi-gene plotting. Extended the notebook to display expression profiles for multiple genes on the same plot, enabling comparison of periodic patterns across different genes. This is essential for identifying genes with synchronized expression during cell cycle phases.
 
-The plots reveal the cyclic nature of gene expression during cell cycle. Being able to visualize individual genes is the first step before implementing more complex multi-gene visualization and peak detection algorithms.
+The multi-gene plots reveal how different genes peak at different times during the cell cycle, corresponding to different functional roles. Some genes show clear synchronization, suggesting they participate in the same biological processes.
 
-Basic matplotlib plotting established, ready for expansion to multi-gene comparison plots in next step.
+These visualizations informed the choice of peak detection algorithm - the clear periodic patterns suggested that a watershed-style approach based on local maxima would work well.
 
-Verified: Expression plot displays clear periodic pattern for test gene, visualization code works correctly.
+Verified: Multi-gene plots display correctly, periodic patterns visible across all test genes, ready for peak detection implementation.
