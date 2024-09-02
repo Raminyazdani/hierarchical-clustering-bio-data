@@ -1,9 +1,12 @@
-Ramin Yazdani | hierarchical-clustering-bio-data | main | WIP(visualization): Extend visualization to compare multiple genes simultaneously
+Ramin Yazdani | hierarchical-clustering-bio-data | main | WIP(algorithm): Implement watershed-style peak detection algorithm
 
-Enhanced visualization capabilities by adding multi-gene plotting. Extended the notebook to display expression profiles for multiple genes on the same plot, enabling comparison of periodic patterns across different genes. This is essential for identifying genes with synchronized expression during cell cycle phases.
+Implemented the core peak detection algorithm using a watershed-style approach. Added cells to detect local maxima in gene expression time series based on gradient analysis. The algorithm identifies peaks (expression maxima) corresponding to specific cell cycle phases where genes are most active.
 
-The multi-gene plots reveal how different genes peak at different times during the cell cycle, corresponding to different functional roles. Some genes show clear synchronization, suggesting they participate in the same biological processes.
+The watershed approach works by:
+- Computing expression gradients to find local maxima
+- Identifying peaks above a threshold
+- Annotating peak positions on visualizations
 
-These visualizations informed the choice of peak detection algorithm - the clear periodic patterns suggested that a watershed-style approach based on local maxima would work well.
+Applied the algorithm to a single test gene (gene 766) first to validate correctness before applying to multiple genes. The detected peaks align with biological expectations for cell cycle gene expression.
 
-Verified: Multi-gene plots display correctly, periodic patterns visible across all test genes, ready for peak detection implementation.
+Verified: Algorithm detects peaks correctly on test gene, peak positions match visual inspection of expression profile.
