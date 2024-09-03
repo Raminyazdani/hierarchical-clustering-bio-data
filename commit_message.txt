@@ -1,12 +1,9 @@
-Ramin Yazdani | hierarchical-clustering-bio-data | main | WIP(algorithm): Implement watershed-style peak detection algorithm
+Ramin Yazdani | hierarchical-clustering-bio-data | main | WIP(refinement): Apply peak detection to all target genes and validate results
 
-Implemented the core peak detection algorithm using a watershed-style approach. Added cells to detect local maxima in gene expression time series based on gradient analysis. The algorithm identifies peaks (expression maxima) corresponding to specific cell cycle phases where genes are most active.
+Extended peak detection analysis to all four target genes in the study. Added cells for multi-gene peak detection, visualization of detected peaks overlaid on expression profiles, and comparison of peak timing across genes. Validated that detected peaks correspond to expected cell cycle biology.
 
-The watershed approach works by:
-- Computing expression gradients to find local maxima
-- Identifying peaks above a threshold
-- Annotating peak positions on visualizations
+This multi-gene analysis demonstrates the robustness of the peak detection algorithm. Different genes show peaks at different cell cycle phases, which is biologically meaningful - genes involved in DNA replication peak in S phase, mitosis genes peak in M phase, etc.
 
-Applied the algorithm to a single test gene (gene 766) first to validate correctness before applying to multiple genes. The detected peaks align with biological expectations for cell cycle gene expression.
+Generated comprehensive visualizations showing all detected peaks with annotations. Results compare well with published cell cycle gene expression data.
 
-Verified: Algorithm detects peaks correctly on test gene, peak positions match visual inspection of expression profile.
+Verified: Peak detection works consistently across all genes, peak timing matches biological expectations, visualizations clearly show detected peaks.
