@@ -1,9 +1,11 @@
-Ramin Yazdani | hierarchical-clustering-bio-data | main | WIP(refinement): Apply peak detection to all target genes and validate results
+Ramin Yazdani | hierarchical-clustering-bio-data | main | WIP(docs): Enhance clustering notebook with comprehensive documentation
 
-Extended peak detection analysis to all four target genes in the study. Added cells for multi-gene peak detection, visualization of detected peaks overlaid on expression profiles, and comparison of peak timing across genes. Validated that detected peaks correspond to expected cell cycle biology.
+Improved documentation in clustering_analysis.ipynb with detailed markdown cells explaining the hierarchical clustering methodology, biological context, and result interpretation. Added explanatory text describing:
+- Why hierarchical clustering is appropriate for methylation data
+- How different linkage methods affect cluster formation
+- Biological interpretation of dendrograms (which cell types cluster together and why)
+- Discussion of pairwise distances and what they reveal about cell type relationships
 
-This multi-gene analysis demonstrates the robustness of the peak detection algorithm. Different genes show peaks at different cell cycle phases, which is biologically meaningful - genes involved in DNA replication peak in S phase, mitosis genes peak in M phase, etc.
+Good documentation ensures the analysis is understandable to collaborators and future users. Each code section now has clear explanation of purpose and interpretation.
 
-Generated comprehensive visualizations showing all detected peaks with annotations. Results compare well with published cell cycle gene expression data.
-
-Verified: Peak detection works consistently across all genes, peak timing matches biological expectations, visualizations clearly show detected peaks.
+Verified: Clustering notebook documentation is comprehensive and clear, suitable for scientific presentation.
