@@ -1,11 +1,11 @@
-Ramin Yazdani | hierarchical-clustering-bio-data | main | WIP(docs): Enhance clustering notebook with comprehensive documentation
+Ramin Yazdani | hierarchical-clustering-bio-data | main | WIP(docs): Enhance periodic expression notebook with biological interpretation
 
-Improved documentation in clustering_analysis.ipynb with detailed markdown cells explaining the hierarchical clustering methodology, biological context, and result interpretation. Added explanatory text describing:
-- Why hierarchical clustering is appropriate for methylation data
-- How different linkage methods affect cluster formation
-- Biological interpretation of dendrograms (which cell types cluster together and why)
-- Discussion of pairwise distances and what they reveal about cell type relationships
+Enhanced periodic_expression.ipynb with comprehensive documentation explaining the time-series analysis, peak detection methodology, and biological interpretation of results. Added detailed markdown cells describing:
+- Cell cycle biology and why genes show periodic expression
+- How the watershed-style peak detection algorithm works
+- Biological meaning of detected peaks (which cell cycle phases they represent)
+- Interpretation and conclusions about cell cycle gene regulation
 
-Good documentation ensures the analysis is understandable to collaborators and future users. Each code section now has clear explanation of purpose and interpretation.
+The documentation now connects the computational analysis to biological insights. Each peak detection result is interpreted in terms of cell cycle biology, making the notebook suitable for presentation to biological audiences.
 
-Verified: Clustering notebook documentation is comprehensive and clear, suitable for scientific presentation.
+Verified: Periodic expression notebook has complete documentation connecting algorithms to biological meaning.
