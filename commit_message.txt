@@ -1,11 +1,16 @@
-Ramin Yazdani | hierarchical-clustering-bio-data | main | WIP(docs): Enhance periodic expression notebook with biological interpretation
+Ramin Yazdani | hierarchical-clustering-bio-data | main | WIP(reproducibility): Update README with comprehensive usage instructions
 
-Enhanced periodic_expression.ipynb with comprehensive documentation explaining the time-series analysis, peak detection methodology, and biological interpretation of results. Added detailed markdown cells describing:
-- Cell cycle biology and why genes show periodic expression
-- How the watershed-style peak detection algorithm works
-- Biological meaning of detected peaks (which cell cycle phases they represent)
-- Interpretation and conclusions about cell cycle gene regulation
+Comprehensively updated README.md with detailed project documentation to ensure reproducibility. Added:
+- Complete folder structure diagram showing all project files
+- Clear installation instructions with pip requirements
+- Step-by-step instructions for running notebooks
+- Data file descriptions with exact dimensions
+- Expected output descriptions
+- Reproducibility notes (Python version requirements, relative path handling, execution order)
+- Troubleshooting guidance for common issues
 
-The documentation now connects the computational analysis to biological insights. Each peak detection result is interpreted in terms of cell cycle biology, making the notebook suitable for presentation to biological audiences.
+The README now enables anyone to clone the repository and successfully reproduce the analysis. All paths are documented, dependencies are clear, and execution steps are explicit.
 
-Verified: Periodic expression notebook has complete documentation connecting algorithms to biological meaning.
+Following these instructions from a fresh clone successfully runs both analysis notebooks and generates all expected outputs.
+
+Verified: README instructions tested from clean environment, all steps work correctly, dependencies install without issues.
