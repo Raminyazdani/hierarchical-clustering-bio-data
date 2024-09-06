@@ -1,16 +1,14 @@
-Ramin Yazdani | hierarchical-clustering-bio-data | main | WIP(reproducibility): Update README with comprehensive usage instructions
+Ramin Yazdani | hierarchical-clustering-bio-data | main | WIP(portfolio): Remove academic traces and prepare for professional presentation
 
-Comprehensively updated README.md with detailed project documentation to ensure reproducibility. Added:
-- Complete folder structure diagram showing all project files
-- Clear installation instructions with pip requirements
-- Step-by-step instructions for running notebooks
-- Data file descriptions with exact dimensions
-- Expected output descriptions
-- Reproducibility notes (Python version requirements, relative path handling, execution order)
-- Troubleshooting guidance for common issues
+Systematically reviewed and removed all assignment/academic references from notebooks and documentation. Changes include:
+- Replaced assignment headers with professional analysis titles in both notebooks
+- Removed all "Exercise", "Task", and "Step" numbering from section headings
+- Removed explicit references to course context and professor names
+- Removed student identification headers
+- Polished all markdown cells for professional presentation
 
-The README now enables anyone to clone the repository and successfully reproduce the analysis. All paths are documented, dependencies are clear, and execution steps are explicit.
+Notebooks now present as standalone professional data science analyses rather than coursework. All technical content remains unchanged - only presentation and framing were adjusted.
 
-Following these instructions from a fresh clone successfully runs both analysis notebooks and generates all expected outputs.
+Both clustering_analysis.ipynb and periodic_expression.ipynb now have professional headers and section titles appropriate for portfolio or publication.
 
-Verified: README instructions tested from clean environment, all steps work correctly, dependencies install without issues.
+Verified: All academic language removed, notebooks suitable for professional portfolio, technical content intact.
