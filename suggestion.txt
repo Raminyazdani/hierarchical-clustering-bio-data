@@ -1,0 +1,21 @@
+TYPE	FILE	LOCATOR	BEFORE_SNIPPET	PROPOSED_CHANGE	RATIONALE	STATUS
+TRACE	code/clustering_analysis.ipynb	cell[0] (markdown)	# Processing of Biological Data **Prof. Dr. Volkhard Helms**...	Replace with professional title	Assignment header contains course info	APPLIED
+TRACE	code/clustering_analysis.ipynb	cell[1] (markdown)	## Task 2.1 – Hierarchical clustering...	Replace with: ## Methylation-Based Cell Type Clustering	Task numbering references assignment	APPLIED
+TRACE	code/clustering_analysis.ipynb	cell[3] (markdown)	## Step 1 – Preparing the data...	Replace with: ## Data Preparation for Clustering	Step numbering suggests assignment	APPLIED
+TRACE	code/clustering_analysis.ipynb	cell[5] (markdown)	## Step 2 – Hierarchical clustering...	Replace with: ## Hierarchical Clustering of Methylation Profiles	Step numbering suggests assignment	APPLIED
+TRACE	code/clustering_analysis.ipynb	cell[7] (markdown)	## Step 3 – Euclidean distance...	Replace with: ## Euclidean Distance Between Cell Types	Step numbering suggests assignment	APPLIED
+TRACE	code/clustering_analysis.ipynb	cell[10] (markdown)	...requested in the exercise: HSC, CD8, and MTAC	Replace with: The analysis focuses on three cell types	Direct reference to exercise requirements	APPLIED
+TRACE	code/periodic_expression.ipynb	cell[0] (markdown)	# Processing of Biological Data **Prof. Dr. Volkhard Helms**...	Replace with professional title	Assignment header contains course info	APPLIED
+TRACE	code/periodic_expression.ipynb	cell[1] (markdown)	## Task 2.2 – Clustering periodic gene expression...	Replace with: ## Periodic Gene Expression Clustering	Task numbering references assignment	APPLIED
+TRACE	code/periodic_expression.ipynb	cell[3] (markdown)	For Exercise 2.2 we work with...	Replace with: This analysis uses...	Direct reference to exercise number	APPLIED
+TRACE	code/periodic_expression.ipynb	cell[5] (markdown)	## Step 2 – Visualizing periodic expression (task 2.2a)	Replace with: ## Visualizing Periodic Expression Patterns	Step/task numbering suggests assignment	APPLIED
+TRACE	code/periodic_expression.ipynb	cell[7] (markdown)	## Step 3 – Watershed-style peak detection (task 2.2b)	Replace with: ## Watershed-Style Peak Detection	Step/task numbering suggests assignment	APPLIED
+TRACE	code/periodic_expression.ipynb	cell[9] (markdown)	## Step 4 – Applying the peak detector to gene 766 (task 2.2c)	Replace with: ## Peak Detection Application - Gene 766	Step/task numbering suggests assignment	APPLIED
+TRACE	code/periodic_expression.ipynb	cell[12] (markdown)	## Step 5 – Peaks of all four genes and comparison to Figure 2 (task 2.2d)	Replace with: ## Multi-Gene Peak Analysis and Visualization	Step/task numbering and reference to Figure 2	APPLIED
+TRACE	code/periodic_expression.ipynb	cell[14] (markdown)	## Final Interpretation and Conclusion – Exercise 2.2	Replace with: ## Interpretation and Conclusions	Reference to exercise number	APPLIED
+DOC	README.md	line 31	assignment_2_pobd/	Replace with current structure	Folder structure diagram references old assignment folder	APPLIED
+DOC	README.md	line 52	cd assignment_2_pobd/code	Replace with: cd code/	Run instructions reference non-existent assignment folder	APPLIED
+DOC	README.md	line 69	Originally created in an academic setting	Remove this line	Explicit reference to academic origin	APPLIED
+STRUCTURE	.gitignore	N/A (file missing)	N/A	Create with Python/Jupyter patterns	Standard Python project should have .gitignore	APPLIED
+DOC	README.md	Section: Folder Structure	Shows outdated structure	Update to reflect actual current structure	Update folder structure diagram	APPLIED
+DOC	README.md	Section: Setup	Minimal setup instructions	Ensure instructions work from repo root	Enhance reproducibility instructions	APPLIED
