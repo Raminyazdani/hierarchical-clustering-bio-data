@@ -28,7 +28,7 @@ This project implements hierarchical clustering techniques for biological data a
 ## Folder Structure
 
 ```
-assignment_2_pobd/
+.
 ├── code/
 │   ├── clustering_analysis.ipynb    # Hierarchical clustering implementation
 │   ├── periodic_expression.ipynb    # Periodic gene expression analysis
@@ -49,9 +49,11 @@ pip install -r requirements.txt
 ## How to Run
 
 ```bash
-cd assignment_2_pobd/code
+cd code
 jupyter notebook
 ```
+
+Open either `clustering_analysis.ipynb` or `periodic_expression.ipynb` in the Jupyter interface and run the cells sequentially.
 
 ## Data / Inputs
 
@@ -65,8 +67,9 @@ jupyter notebook
 
 ## Reproducibility Notes
 
-- All paths relative to project directory
-- Originally created in an academic setting
+- All paths are relative to the project directory
+- Run notebooks from the `code/` directory for correct relative paths
+- Python 3.7+ recommended
 
 ## Notes
 

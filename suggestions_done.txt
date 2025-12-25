@@ -1,1 +1,15 @@
-FILE	LOCATOR	BEFORE_SNIPPET	AFTER_SNIPPET	NOTES
+FILELOCATORBEFORE_SNIPPETAFTER_SNIPPETNOTES
+.gitignore N/A (file created)N/ACreated with Python/Jupyter patterns: __pycache__/, .ipynb_checkpoints, venv/, etc.Added standard .gitignore for Python/Jupyter projects
+README.md line 31assignment_2_pobd/Current structure (no assignment_2_pobd)Updated folder structure to reflect actual repo layout
+README.md line 52cd assignment_2_pobd/codecd code/Fixed run command to use correct path
+README.md line 69Originally created in an academic settingRemovedRemoved explicit academic reference
+README.md Section: Reproducibility NotesTwo bullet points including academic settingEnhanced with Python version requirement and clear path instructionsImproved professionalism and clarity
+code/clustering_analysis.ipynb cell[0] (markdown)# Processing of Biological Data **Prof. Dr. Volkhard Helms** ... Exercise Sheet 2 ... Student: Ramin Yazdani# Hierarchical Clustering Analysis **Methylation-Based Cell Type Clustering** ...Replaced assignment header with professional title
+code/clustering_analysis.ipynb cell[3] (markdown)## Step 1 – Loading and inspecting the methylation data/## Loading and Inspecting the Methylation DataRemoved step numbering from heading
+code/clustering_analysis.ipynb cell[5] (markdown)## Step 2 – Hierarchical clustering of methylation profiles## Hierarchical Clustering of Methylation ProfilesRemoved step numbering from heading
+code/clustering_analysis.ipynb cell[7] (markdown)## Step 3 – Euclidean distance between cell types## Euclidean Distance Between Cell TypesRemoved step numbering from heading
+code/clustering_analysis.ipynb various cells (markdown)## Step 2 – Methylation levels, Step 4 – Average linkage, Step 5 – Agglomerative clustering, Step 6 – Final InterpretationRemoved "Step N –" prefix from all section headingsSystematically removed all step numbering patterns
+code/periodic_expression.ipynb cell[0] (markdown)# Processing of Biological Data **Prof. Dr. Volkhard Helms** ... Exercise Sheet 2 ... Student: Ramin Yazdani# Periodic Gene Expression Analysis **Cell Cycle Gene Expression Clustering** ...Replaced assignment header with professional title
+code/periodic_expression.ipynb cell[3] (markdown)For Exercise 2.2 we work with the perturbed...This analysis uses the perturbed...Removed exercise reference
+code/periodic_expression.ipynb various cells (markdown)## Step 2 – Visualizing (task 2.2a), Step 3 – Watershed (task 2.2b), etc.## Visualizing Periodic Expression Patterns, ## Watershed-Style Peak Detection, etc.Removed all step/task numbering from section headings
+code/periodic_expression.ipynb cell[14] (markdown)## Final Interpretation and Conclusion – Exercise 2.2## Interpretation and ConclusionsRemoved exercise reference from conclusion heading
