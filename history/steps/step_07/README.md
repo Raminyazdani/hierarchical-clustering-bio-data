@@ -1,46 +1,23 @@
-# Hierarchical Clustering Analysis
+# Hierarchical Clustering for Biological Data
 
-**Biological data clustering with dendrogram visualization**
-
-**Stack:** Python, Jupyter Notebook, scikit-learn
+**Agglomerative clustering and dendrogram visualization for biological datasets**
 
 ## Overview
 
-This project implements hierarchical clustering techniques for biological data analysis, with emphasis on dendrogram generation and interpretation. It demonstrates agglomerative clustering methods and visualization strategies for understanding data structure.
+This project implements hierarchical clustering techniques for biological data analysis, with emphasis on dendrogram generation and interpretation.
 
-## Problem & Approach
+## Current Status
 
-**Problem:** Apply hierarchical clustering to biological datasets and visualize relationships through dendrograms.
-
-**Approach:**
-- Implement agglomerative clustering algorithms
-- Generate and interpret dendrograms
-- Compare linkage methods (single, complete, average, Ward)
-- Evaluate clustering quality with appropriate metrics
+Added methylation dataset and initial data exploration notebook.
 
 ## Tech Stack
 
 - Python 3.x
 - Jupyter Notebook
-- NumPy, scikit-learn
-- Matplotlib/Seaborn for visualization
+- NumPy, Pandas, scikit-learn
+- Matplotlib for visualization
 
-## Folder Structure
-
-```
-.
-├── code/
-│   ├── clustering_analysis.ipynb    # Hierarchical clustering implementation
-│   ├── periodic_expression.ipynb    # Periodic gene expression analysis
-│   └── dendogram.jpg                # Generated dendrogram
-├── data/
-│   ├── methylation.csv              # Methylation data
-│   └── periodic_gene_expression.tsv # Gene expression time series
-├── requirements.txt
-└── README.md
-```
-
-## Setup / Installation
+## Setup
 
 ```bash
 pip install -r requirements.txt
@@ -53,25 +30,24 @@ cd code
 jupyter notebook
 ```
 
-Open either `clustering_analysis.ipynb` or `periodic_expression.ipynb` in the Jupyter interface and run the cells sequentially.
+Open `clustering_analysis.ipynb` to explore the data.
 
-## Data / Inputs
+## Project Structure
 
-- `data/methylation.csv` - Methylation data for clustering analysis
-- `data/periodic_gene_expression.tsv` - Time-series gene expression data
+```
+.
+├── README.md
+├── requirements.txt
+├── .gitignore
+├── code/
+│   └── clustering_analysis.ipynb
+└── data/
+    └── methylation.csv
+```
 
-## Outputs
+## Next Steps
 
-- `dendogram.jpg` - Hierarchical clustering visualization
-- Cluster assignments and quality metrics
+- Implement hierarchical clustering algorithms
+- Add dendrogram visualization
+- Compute distance metrics
 
-## Reproducibility Notes
-
-- All paths are relative to the project directory
-- Run notebooks from the `code/` directory for correct relative paths
-- Python 3.7+ recommended
-
-## Notes
-
-- Two notebooks covering clustering techniques
-- Dendrogram output included as example
