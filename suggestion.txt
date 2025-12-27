@@ -16,6 +16,6 @@ TRACE	code/periodic_expression.ipynb	cell[14] (markdown)	## Final Interpretation
 DOC	README.md	line 31	assignment_2_pobd/	Replace with current structure	Folder structure diagram references old assignment folder	APPLIED
 DOC	README.md	line 52	cd assignment_2_pobd/code	Replace with: cd code/	Run instructions reference non-existent assignment folder	APPLIED
 DOC	README.md	line 69	Originally created in an academic setting	Remove this line	Explicit reference to academic origin	APPLIED
-STRUCTURE	.gitignore	N/A (file missing)	Create with Python/Jupyter patterns	Standard Python project should have .gitignore	APPLIED
-DOC	README.md	Section: Folder Structure	Shows outdated structure	Update to reflect actual current structure	APPLIED
-DOC	README.md	Section: Setup	Minimal setup instructions	Ensure instructions work from repo root	APPLIED
+STRUCTURE	.gitignore	N/A (file missing)	N/A	Create with Python/Jupyter patterns	Standard Python project should have .gitignore	APPLIED
+DOC	README.md	Section: Folder Structure	Shows outdated structure	Update to reflect actual current structure	Update folder structure diagram	APPLIED
+DOC	README.md	Section: Setup	Minimal setup instructions	Ensure instructions work from repo root	Enhance reproducibility instructions	APPLIED
